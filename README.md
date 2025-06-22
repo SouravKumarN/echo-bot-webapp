@@ -1,47 +1,26 @@
-﻿# EchoBot
+﻿https://github.com/microsoft/botbuilder-python/blob/main/generators/app/templates/echo/%7B%7Bcookiecutter.bot_name%7D%7D/README.md
 
-Bot Framework v4 echo bot sample.
+{{cookiecutter.bot_name}}
 
-This bot has been created using [Bot Framework](https://dev.botframework.com), it shows how to create a simple bot that accepts input from the user and echoes it back.
+{{cookiecutter.bot_description}}
 
-## To try this sample
+This bot has been created using Bot Framework, it shows how to create a simple bot that accepts input from the user and echoes it back.
+Prerequisites
 
-- Clone the repository
-```bash
-git clone https://github.com/Microsoft/botbuilder-samples.git
-```
-- In a terminal, navigate to `botbuilder-samples\samples\python\02.echo-bot` folder
-- Activate your desired virtual environment
-- In the terminal, type `pip install -r requirements.txt`
-- Run your bot with `python app.py`
+This sample requires prerequisites in order to run.
+Install Python 3.6
+Running the sample
 
-## Testing the bot using Bot Framework Emulator
+    Run pip install -r requirements.txt to install all dependencies
+    Run python app.py
 
-[Bot Framework Emulator](https://github.com/microsoft/botframework-emulator) is a desktop application that allows bot developers to test and debug their bots on localhost or running remotely through a tunnel.
+Testing the bot using Bot Framework Emulator
 
-- Install the latest Bot Framework Emulator from [here](https://github.com/Microsoft/BotFramework-Emulator/releases)
+Bot Framework Emulator is a desktop application that allows bot developers to test and debug their bots on localhost or running remotely through a tunnel.
 
-### Connect to the bot using Bot Framework Emulator
+    Install the Bot Framework Emulator version 4.3.0 or greater from here
 
-- Launch Bot Framework Emulator
-- File -> Open Bot
-- Enter a Bot URL of `http://localhost:3978/api/messages`
+Connect to the bot using Bot Framework Emulator
 
-## Interacting with the bot
-
-Enter text in the emulator.  The text will be echoed back by the bot.
-
-## Deploy the bot to Azure
-
-To learn more about deploying a bot to Azure, see [Deploy your bot to Azure](https://aka.ms/azuredeployment) for a complete list of deployment instructions.
-
-## Further reading
-
-- [Bot Framework Documentation](https://docs.botframework.com)
-- [Bot Basics](https://docs.microsoft.com/azure/bot-service/bot-builder-basics?view=azure-bot-service-4.0)
-- [Activity processing](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-activity-processing?view=azure-bot-service-4.0)
-- [Azure Bot Service Introduction](https://docs.microsoft.com/azure/bot-service/bot-service-overview-introduction?view=azure-bot-service-4.0)
-- [Azure Bot Service Documentation](https://docs.microsoft.com/azure/bot-service/?view=azure-bot-service-4.0)
-- [Azure CLI](https://docs.microsoft.com/cli/azure/?view=azure-cli-latest)
-- [Azure Portal](https://portal.azure.com)
-- [Channels and Bot Connector Service](https://docs.microsoft.com/en-us/azure/bot-service/bot-concepts?view=azure-bot-service-4.0)
+    Launch Bot Framework Emulator
+    Enter a Bot URL of http://localhost:3978/api/messages
