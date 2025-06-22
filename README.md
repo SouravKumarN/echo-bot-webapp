@@ -1,10 +1,17 @@
-﻿https://github.com/microsoft/botbuilder-python/blob/main/generators/app/templates/echo/%7B%7Bcookiecutter.bot_name%7D%7D/README.md
+﻿*** Azure User assigned managed identity BOT sample ***
 
-{{cookiecutter.bot_name}}
+Code taken from -
+https://github.com/microsoft/botbuilder-python/blob/main/generators/app/templates/echo/%7B%7Bcookiecutter.bot_name%7D%7D/README.md
 
-{{cookiecutter.bot_description}}
+With some fixes from -
+https://stackoverflow.com/questions/79060689/bot-framework-sdk-python-app-fails-with-userassignedmsi-but-works-with-multitena
+
+
 
 This bot has been created using Bot Framework, it shows how to create a simple bot that accepts input from the user and echoes it back.
+
+For local testing ------
+
 Prerequisites
 
 This sample requires prerequisites in order to run.
@@ -23,4 +30,4 @@ Bot Framework Emulator is a desktop application that allows bot developers to te
 Connect to the bot using Bot Framework Emulator
 
     Launch Bot Framework Emulator
-    Enter a Bot URL of http://localhost:3978/api/messages
+    Enter a Bot URL of http://localhost:8000/api/messages
